@@ -63,6 +63,7 @@ build() {
     fi
     set -e  # back to failing if any command fails
     info "Installing npm packages"
+    npm install -g node-gyp node-pre-gyp
     npm install
     meteor build ../build --directory 2>&1 | indent
     head "Installing App's NPM Dependencies"
