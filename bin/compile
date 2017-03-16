@@ -23,4 +23,4 @@ $bp_dir/bin/compile_node "$1" "$2"
 $bp_dir/bin/compile_meteor "$1" "$2"
 
 # Install phantomjs 
-$bp_dir/bin/install_phantomjs "$1" "$2"
+# $bp_dir/bin/install_phantomjs "$1" "$2"
